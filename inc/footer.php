@@ -55,7 +55,7 @@
     </div>
   </div>
 </footer>
-<a class="nav-link" id="to_top" href="#top">
+<a class="nav-link" id="to_top" href="#">
   <i class="las la-angle-up"></i>
 </a>
 <script src="js/jquery.3.4.1.js"></script>
