@@ -1,9 +1,8 @@
 header {
-  /* background-image: linear-gradient(to right, #fff 27%, #f5822042 20%, #f58220c9 20%, #f58220 50%); */
-  background-color: var(--back_menu);
+  background: transparent linear-gradient(90deg, var(--third_color) 35%, var(--light) 30%) -31% 0% no-repeat padding-box;
 }
 #nav nav .logo {
-  width: 100px;
+  width: 165px;
 }
 #nav nav .nav-link {
   color: var(--text_menu);
@@ -36,7 +35,7 @@ main #top {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: calc(100vh - 73px);
+  height: calc(100vh - 77px);
   color: #fff;
 }
 main #main_carousel {
@@ -90,7 +89,7 @@ main .mini_titles {
     font-size: 1rem;
     letter-spacing: 3px;
     text-transform: initial;
-    color: var(--main_color);
+    color: var(--third_color);
 }
 main #specifications i {
   font-size: 4rem;
@@ -146,8 +145,8 @@ main #contact button:hover {
   font-size: 16px;
 }
 a.custom {
-  background-color: #f07d00 !important;
-  border-color: #f07d00 !important;
+  background-color: var(--main_color) !important;
+  border-color: var(--second_color) !important;
   color: #fff;
   padding: 15px 50px;
   border-radius: 20px;
@@ -159,11 +158,14 @@ a.custom:hover {
   transition: all 0.3s ease-out 0s !important;
 }
 #pre_footer {
-  background: linear-gradient(to left, #203864 , #203864);
+  background: linear-gradient(to left, var(--third_color) , var(--third_color));
   color: #fff;
 }
 #pre_footer a {
   color: #fff;
+}
+#pre_footer img.logo_footer {
+  width: 240px;
 }
 #pre_footer a:hover {
   opacity: 0.8;
@@ -172,7 +174,7 @@ a.custom:hover {
   font-size: 35px;
 }
 #pre_footer hr {
-  border-top: 2px solid rgb(239, 76, 36);
+  border-top: 2px solid var(--main_color);
   width: 20%;
 }
 #pre_footer p {
@@ -196,7 +198,7 @@ footer {
   font-size: 18px;
   border: none;
   outline: none;
-  background-color: #ec7305;
+  background-color: var(--second_color);
   color: white;
   cursor: pointer;
   padding: 15px 20px;
@@ -205,7 +207,12 @@ footer {
   transition: all 0.3s ease-out 0s !important;
 }
 #to_top:hover {
-  background-color: #ff0000b8;
+  background-color: var(--third_color);
+}
+@media (min-width: 1900px) {
+  header {
+    background: transparent linear-gradient(90deg, var(--third_color) 45%, var(--light) 30%) -31% 0% no-repeat padding-box;
+  }
 }
 @media (max-width: 1300px) {
   main #main_carousel {
@@ -240,6 +247,9 @@ footer {
 }
 /* RESOLUTION START HAMBURGER NAV  */
 @media(max-width: 575px) { 
+  header {
+    background: transparent linear-gradient(90deg, var(--third_color) 62%, var(--light) 30%) -31% 0% no-repeat padding-box;
+  }
   .navbar-dark .navbar-toggler {
     background-color: #000;
     color: #fff;

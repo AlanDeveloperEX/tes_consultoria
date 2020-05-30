@@ -4,25 +4,25 @@
       <div class="col-md-12">
         <div class="row">
           <div class="col-md-4 text-center">
-            <img src="imgs/logo_rodape.png" alt="">
+            <img class="logo_footer" src="imgs/logo.png" alt="">
             <div class="row pt20 pb20">
               <div class="col-md-3">
-                <a href="https://www.facebook.com/paginainstitutocrescer" target="_blank">
+                <a href="https://www.facebook.com/<?=$face?>" target="_blank">
                   <i class="lab la-facebook"></i>
                 </a>
               </div>
               <div class="col-md-3">
-                <a href="https://www.youtube.com/user/InstCrescer" target="_blank">
+                <a href="https://www.youtube.com/user/" target="_blank">
                   <i class="lab la-youtube"></i>
                 </a>
               </div>
               <div class="col-md-3">
-                <a href="https://www.linkedin.com/company/instituto-crescer" target="_blank">
-                  <i class="lab la-linkedin"></i>
+                <a href="https://www.instagram.com/<?=$insta?>" target="_blank">
+                  <i class="lab la-instagram"></i>
                 </a>
               </div>
               <div class="col-md-3">
-                <a href="https://twitter.com/instcrescer" target="_blank">
+                <a href="https://twitter.com/" target="_blank">
                   <i class="lab la-twitter"></i>
                 </a>
               </div>

@@ -1,5 +1,9 @@
 <head>
-  <?$app = 'IC Cursos';?>
+  <?
+    $app = 'Tes Consultoria';
+    $face = 'TES-Consultoria-e-Treinamentos-247625099220622';
+    $insta = 'rafa_tes';
+  ?>
   <link rel="icon" href="imgs/favicon.ico" type="image/x-icon">
   <title><?=$app?></title>
   <meta charset="utf-8">

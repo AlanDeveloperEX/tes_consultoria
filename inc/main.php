@@ -147,7 +147,7 @@
 
   <section id="contact">
     <div class="container">
-      <div class="row wow bounceInUp animated slow">
+      <div class="row">
         <div class="offset-lg-3 col-md-12 col-lg-6 text-center">
           <h2 class="main_titles">Possui alguma dúvida ou quer fazer o curso Design Educacional? Entre em contato:</h2>
         </div>

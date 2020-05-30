@@ -1,7 +1,8 @@
 /* MAIN COLOR  */
 :root {
-  --main_color: #f58220;
-  --second_color: #013ca6;
+  --main_color: #63adaf;
+  --second_color: #4fb5b4;
+  --third_color: #343a40;
   --back_menu: #fff;
   --text_menu: #000;
 }
@@ -107,12 +108,12 @@ html {
   animation-iteration-count: infinite;
 }
 .title_divisor {
-  border-top: 5px solid rgb(127, 181, 226);
+  border-top: 5px solid var(--main_color);
   border-radius: 10px;
   max-width: 200px;
 }
 .title_divisor.second {
-  border-top: 5px solid rgb(127, 181, 226);
+  border-top: 5px solid var(--main_color);
 }
 .top_fixed {
 	position: fixed;
